@@ -1,0 +1,73 @@
+.heading{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: center;
+}
+
+.task-to-do{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 7px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS";
+}
+.add-btn{
+    background-color: rgb(12, 37, 179);
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 7px;
+    color: aliceblue;
+    border: none;
+    font-family: "Comic Sans MS";
+    width: 200px;
+    cursor: pointer;
+}
+.container{
+    font-family: "Comic Sans MS";
+    width: 60%;
+    margin: auto;
+    display: flex;
+}
+.extra-box{
+    width: 60%;
+    margin: auto;
+    font-family: "Comic Sans MS";
+}
+#error{
+    font-size: 15px;
+    color: red;
+    font-weight: bolder;
+}
+
+.remove-btn{
+    border:none;
+    color: red;
+    background-color: transparent;
+    cursor: pointer;
+}
+.card{
+    border: 2px solid #757575;
+    /* width: 100%; */
+    background-color: #fff;
+    padding: 15px 30px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px #757575;
+    display: flex;
+    margin-bottom: 10px;
+}
+.new-element{
+    width: 100%;
+    /* background-color: yellow; */
+}
+#mark-done , #edit-btn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.take_input{
+    width: 100%;
+}
